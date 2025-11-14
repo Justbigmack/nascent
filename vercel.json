@@ -5,8 +5,17 @@
     }
   },
   "rewrites": [
-    { "source": "/orderbook/:asset", "destination": "/api/orderbook/:asset" },
-    { "source": "/trade", "destination": "/api/trade" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/orderbook/:asset",
+      "destination": "/api/orderbook/:asset"
+    },
+    {
+      "source": "/trade",
+      "destination": "/api/trade"
+    },
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
   ]
 }
