@@ -1,0 +1,86 @@
+{
+  "general": {
+    "english": "English",
+    "spanish": "Spanish",
+    "backToHomepage": "Back to Homepage",
+    "loading": "Loading...",
+    "error": "Error loading data",
+    "appTitle": "Nascent Crypto Trading",
+    "buy": "Buy",
+    "sell": "Sell",
+    "price": "Price",
+    "quantity": "Quantity",
+    "total": "Total",
+    "asset": "Asset",
+    "side": "Side",
+    "type": "Type",
+    "limit": "Limit",
+    "market": "Market",
+    "submit": "Submit Order",
+    "sellers": "Sellers",
+    "buyers": "Buyers",
+    "spread": "Spread",
+    "notional": "Notional",
+    "time": "Time",
+    "notAvailable": "N/A"
+  },
+  "cryptoSelector": {
+    "title": "Select Cryptocurrency",
+    "subtitle": "Choose a cryptocurrency to start trading",
+    "search": "Search by name or symbol...",
+    "marketCap": "Market Cap",
+    "volume24h": "24h Volume",
+    "trade": "Trade",
+    "noResults": "No cryptocurrencies found matching your search."
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Page not found",
+    "description": "The page you are looking for doesn't exist or has been moved."
+  },
+  "errorPage": {
+    "title": "Oops",
+    "description": "Something unexpected happened. Retry later or contact support, if the error persists"
+  },
+  "trading": {
+    "orderBook": "Order Book",
+    "bestBid": "Best Bid",
+    "bestAsk": "Best Ask",
+    "ask": "ASK",
+    "bid": "BID",
+
+    "clickToBuy": "Click to buy at this price",
+    "clickToSell": "Click to sell at this price"
+  },
+  "orderForm": {
+    "placeOrder": "Place Order",
+    "orderType": "Order Type",
+    "enterPrice": "Enter price in USD",
+    "enterQuantity": "Enter quantity",
+    "totalUSD": "Total USD",
+    "enterAnyTwo": "Enter any 2 values, the 3rd will be calculated",
+    "marketOrderNote": "Market orders execute immediately at the best available price",
+    "submitting": "Submitting...",
+    "formFilled": "Form filled out",
+    "formFilledDescription_BUY": "Filled out the BUY order at ${{price}}. Fill out the form and submit it to buy",
+    "formFilledDescription_SELL": "Filled out the SELL order at ${{price}}. Fill out the form and submit it to sell",
+    "orderSuccess": "Order submitted successfully!",
+    "orderSuccessDescription_LIMIT": "{{side}} {{quantity}} {{symbol}} at ${{price}}",
+    "orderSuccessDescription_MARKET": "{{side}} {{quantity}} {{symbol}} at market price",
+    "orderFailed": "Order submission failed",
+    "enterNotional": "Enter notional",
+    "validation": {
+      "priceRequired": "Price is required",
+      "quantityRequired": "Quantity is required",
+      "totalRequired": "Total is required",
+      "mustBeANumber": "Please, enter a number",
+      "mustBePositive": "Please, enter a positive number",
+      "invalidOrderSide": "Please, select a proper order side"
+    }
+  },
+  "orderHistory": {
+    "title": "Trade History",
+    "noOrders": "No orders yet",
+    "filled": "FILLED"
+  }
+}

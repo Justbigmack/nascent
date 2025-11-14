@@ -1,0 +1,81 @@
+{
+  "general": {
+    "english": "Inglés",
+    "spanish": "Español",
+    "backToHomepage": "Volver a la página principal",
+    "loading": "Cargando...",
+    "error": "Error al cargar datos",
+    "appTitle": "Nascent Crypto Trading",
+    "buy": "Comprar",
+    "sell": "Vender",
+    "price": "Precio",
+    "quantity": "Cantidad",
+    "total": "Total",
+    "asset": "Activo",
+    "side": "Lado",
+    "type": "Tipo",
+    "limit": "Límite",
+    "market": "Mercado",
+    "submit": "Enviar orden",
+    "sellers": "Vendedores",
+    "buyers": "Compradores",
+    "spread": "Diferencial",
+    "notional": "Nocional",
+    "time": "Hora",
+    "notAvailable": "No disponible"
+  },
+  "cryptoSelector": {
+    "title": "Seleccionar criptomoneda",
+    "subtitle": "Elige una criptomoneda para comenzar a operar",
+    "search": "Buscar por nombre o símbolo...",
+    "marketCap": "Capitalización de mercado",
+    "volume24h": "Volumen 24h",
+    "trade": "Operar",
+    "noResults": "No se encontraron criptomonedas que coincidan con tu búsqueda."
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Página no encontrada",
+    "description": "La página que buscas no existe o ha sido movida."
+  },
+  "trading": {
+    "orderBook": "Libro de órdenes",
+    "bestBid": "Mejor oferta",
+    "bestAsk": "Mejor demanda",
+    "ask": "DEMANDA",
+    "bid": "OFERTA",
+    "clickToBuy": "Haz clic para comprar a este precio",
+    "clickToSell": "Haz clic para vender a este precio"
+  },
+  "orderForm": {
+    "placeOrder": "Realizar orden",
+    "orderType": "Tipo de orden",
+    "enterPrice": "Ingresa el precio en USD",
+    "enterQuantity": "Ingresa la cantidad",
+    "totalUSD": "Total USD",
+    "enterAnyTwo": "Ingresa cualquier 2 valores, el tercero se calculará",
+    "marketOrderNote": "Las órdenes de mercado se ejecutan inmediatamente al mejor precio disponible",
+    "submitting": "Enviando...",
+    "formFilled": "Formulario completado",
+    "formFilledDescription_BUY": "Formulario de compra completado a ${{price}}. Completa el formulario y envíalo para comprar",
+    "formFilledDescription_SELL": "Formulario de venta completado a ${{price}}. Completa el formulario y envíalo para vender",
+    "orderSuccess": "¡Orden enviada con éxito!",
+    "orderSuccessDescription_LIMIT": "{{side}} {{quantity}} {{symbol}} a ${{price}}",
+    "orderSuccessDescription_MARKET": "{{side}} {{quantity}} {{symbol}} a precio de mercado",
+    "orderFailed": "Error al enviar la orden",
+    "enterNotional": "Ingresa el nocional",
+    "validation": {
+      "priceRequired": "El precio es obligatorio",
+      "quantityRequired": "La cantidad es obligatoria",
+      "totalRequired": "El total es obligatorio",
+      "mustBeANumber": "Debe ser un número",
+      "mustBePositive": "Debe ser un número positivo",
+      "invalidOrderSide": "Lado de orden inválido"
+    }
+  },
+  "orderHistory": {
+    "title": "Historial de operaciones",
+    "noOrders": "Aún no hay órdenes",
+    "filled": "EJECUTADA"
+  }
+}

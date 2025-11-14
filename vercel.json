@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/orderbook/:asset",
+      "destination": "/api/orderbook/:asset"
+    },
+    {
+      "source": "/orderbook",
+      "destination": "/api/orderbook/BTC"
+    },
+    {
+      "source": "/trade",
+      "destination": "/api/trade"
+    }
+  ]
+}
