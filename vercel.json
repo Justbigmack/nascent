@@ -11,6 +11,10 @@
     {
       "source": "/trade",
       "destination": "/api/trade"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
     }
   ]
 }

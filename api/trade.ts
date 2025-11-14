@@ -8,8 +8,9 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  const order = req.body;
-  console.log(req.body);
+  try {
+    const order = req.body;
+    console.log("Received order:", req.body);
 
   // Validations
   if (!order.asset) {
@@ -41,9 +42,16 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(422).send({ error: "Notional is invalid" });
   }
 
-  return res.json({
-    ...order,
-    id: uuidv4(),
-    timestamp: Date.now(),
-  });
+    return res.json({
+      ...order,
+      id: uuidv4(),
+      timestamp: Date.now(),
+    });
+  } catch (error) {
+    console.error("Error processing trade:", error);
+    return res.status(500).json({
+      error: "Internal server error",
+      details: (error as Error).message
+    });
+  }
 }
