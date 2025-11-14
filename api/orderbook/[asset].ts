@@ -1,8 +1,8 @@
 // File for Vercel to work after deployment
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 
-import btcOrderbook from "../../server/data/btc_orderbook.json";
-import ethOrderbook from "../../server/data/eth_orderbook.json";
+import btcOrderbook from "../data/btc_orderbook.json";
+import ethOrderbook from "../data/eth_orderbook.json";
 
 export default function handler(req: VercelRequest, res: VercelResponse) {
   const { asset } = req.query;
