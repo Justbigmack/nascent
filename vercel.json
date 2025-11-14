@@ -10,15 +10,11 @@
       "destination": "/api/orderbook/:asset"
     },
     {
-      "source": "/orderbook",
-      "destination": "/api/orderbook/BTC"
-    },
-    {
       "source": "/trade",
       "destination": "/api/trade"
     },
     {
-      "source": "/(.*)",
+      "source": "/:path((?!orderbook|trade).*)*",
       "destination": "/index.html"
     }
   ]
