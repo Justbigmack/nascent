@@ -14,8 +14,15 @@
       "destination": "/api/trade"
     },
     {
-      "source": "/:path((?!orderbook|trade).*)*",
-      "destination": "/index.html"
+      "source": "/:match*",
+      "destination": "/index.html",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": "text/html"
+        }
+      ]
     }
   ]
 }
