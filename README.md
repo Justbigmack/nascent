@@ -36,6 +36,7 @@ I wanted to point out that the given time frame of 3 hours was not enough for me
 - Proper data retrieval from backend or certain public API's - currently homepage data is hardcoded, because there is no BE endpoint to use
 - Real data updates
 - Better error handling
+- Performance optimizations
 - Many more
 
 ## Features
