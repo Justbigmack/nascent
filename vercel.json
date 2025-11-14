@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "api/orderbook/[asset].ts": {
+      "includeFiles": "api/data/**"
+    }
+  },
   "rewrites": [
     {
       "source": "/orderbook/:asset",
