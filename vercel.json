@@ -12,10 +12,15 @@
     {
       "source": "/trade",
       "destination": "/api/trade"
+    }
+  ],
+  "routes": [
+    {
+      "handle": "filesystem"
     },
     {
-      "source": "/:path*",
-      "destination": "/index.html"
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
